@@ -1,23 +1,21 @@
 # CineRec
 
 CineRec is a movie recommendation application that provides detailed information about requested movies, including their synopsis, genres, release date, ratings, runtime, top cast, user reviews, recommended movies, and more.
-
 The application fetches movie-related data (such as title, genre, runtime, ratings, posters, etc.) using the TMDB, https://www.themoviedb.org and performed sentiment analysis on those reviews.
 
 ## Finding similar movies
+
 ### Without Content-Based Analysis (Ratings-Based)
-
 In this method, movies with similar ratings are identified using the K-Nearest Neighbors (KNN) algorithm.
-### Content-Based Analysis
 
+### Content-Based Analysis
 This approach leverages movie information, such as genres, to determine the most similar movies.
 
 ## Matrix Factorisation(Collabarative Filtering) 
-
 Two approaches were tried to do matrix factorisation
 
-## Low-Rank Approximation: Although effective, this method was slower in execution.
-## Sparse Matrix Factorization using Scipy’s SVD: A more efficient solution that handles sparse matrices effectively.
+### Low-Rank Approximation: Although effective, this method was slower in execution.
+### Sparse Matrix Factorization using Scipy’s SVD: A more efficient solution that handles sparse matrices effectively.
 
 
 ## Deep Learning Methods

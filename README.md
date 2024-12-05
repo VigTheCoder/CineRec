@@ -16,8 +16,8 @@ This approach leverages movie information, such as genres, to determine the most
 
 Two approaches were tried to do matrix factorisation
 
-### Low-Rank Approximation: Although effective, this method was slower in execution.
-### Sparse Matrix Factorization using Scipy’s SVD: A more efficient solution that handles sparse matrices effectively.
+## Low-Rank Approximation: Although effective, this method was slower in execution.
+## Sparse Matrix Factorization using Scipy’s SVD: A more efficient solution that handles sparse matrices effectively.
 
 
 ## Deep Learning Methods
@@ -25,9 +25,9 @@ Two approaches were tried to do matrix factorisation
 Matrix factorization is a widely used method in recommendation systems. It is based on learning low-dimensional embeddings for both users and movies.
 For instance, embeddings for movies might encode features like the amount of action or runtime, while embeddings for users might capture preferences for action or long movies. Combining these embeddings enables predictions of ratings for unseen movies.
 
-### 1. Matrix Factorization with Deep Learning
-### 2. Matrix Factorization with Non-Negative Embeddings
-### 3. Advanced Neural Networks featuring different embedding configurations for users and movies.
+## 1. Matrix Factorization with Deep Learning
+## 2. Matrix Factorization with Non-Negative Embeddings
+## 3. Advanced Neural Networks featuring different embedding configurations for users and movies.
 
 ## Required Tools
 
@@ -37,7 +37,7 @@ For instance, embeddings for movies might encode features like the amount of act
 4. Numpy
 5. Pandas
 
-### Sources of the datasets 
+## Sources of the datasets 
 
 1. [The Movies Dataset](https://www.kaggle.com/rounakbanik/the-movies-dataset)
 2. [List of movies in 2018](https://en.wikipedia.org/wiki/List_of_American_films_of_2018)

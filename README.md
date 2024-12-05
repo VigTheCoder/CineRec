@@ -25,7 +25,7 @@ Two approaches were tried to do matrix factorisation
 Matrix factorization is a widely used method in recommendation systems. It is based on learning low-dimensional embeddings for both users and movies.
 For instance, embeddings for movies might encode features like the amount of action or runtime, while embeddings for users might capture preferences for action or long movies. Combining these embeddings enables predictions of ratings for unseen movies.
 
-### 1.Matrix Factorization with Deep Learning
+### 1. Matrix Factorization with Deep Learning
 ### 2. Matrix Factorization with Non-Negative Embeddings
 ### 3. Advanced Neural Networks featuring different embedding configurations for users and movies.
 

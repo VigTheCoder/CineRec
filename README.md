@@ -31,11 +31,11 @@ For instance, embeddings for movies might encode features like the amount of act
 
 ## Required Tools
 
-Python 3
-Keras
-Scipy
-Numpy
-Pandas
+1. Python 3
+2. Keras
+3. Scipy
+4. Numpy
+5. Pandas
 
 ### Sources of the datasets 
 
